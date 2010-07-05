@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<sid xmlns="http://www.sonicsw.com/sonicesb/sid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<service>
+		<properties>
+			<name>FileReaderServiceType</name>
+			<type>Java</type>			
+			<namespace>http://www.sonicsw.com/sonicesb/sid</namespace>
+		</properties>
+
+		<interface name="Default">
+			<operation name="Default">
+				<input name="Input">
+					<part binding-info="name" binding-name="Part" name="DefaultInput" namespace="http://www.w3.org/2001/XMLSchema" type="xsd:anyType"/>
+				</input>
+				<output name="Output">
+					<part binding-info="name" binding-name="Part" name="DefaultOutput" namespace="http://www.w3.org/2001/XMLSchema" type="xsd:anyType"/>
+				</output>
+			</operation>
+		</interface>
+	</service>
+</sid>

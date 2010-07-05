@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="FileReaderServiceType" factoryClass="com.progress.codeshare.esbservice.fileReader.FileReaderService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="file"/>
+        </runtime>
+    </validParams>
+</serviceType>
